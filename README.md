@@ -14,4 +14,4 @@ The -o parameter can be used to specify the path to a folder where you wish to g
 
 To create a new service, run sc.exe from your System32 folder and pass in the name of the EXE file generated from the publish command.
 
-> C:\Windows\System32\sc.exe create WorkerService.DeployTest binPath=C:\path\to\project\pubfolder\WorkerService.DeployTest.exe
+> C:\Windows\System32\sc.exe create WorkerService.DeployTest binPath=C:\path\to\project\pubfolder\WorkerService.DeployTest.exe start= auto
